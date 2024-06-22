@@ -1,0 +1,19 @@
+/* Example for a background color */
+body {
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+/* Example for a background image */
+body {
+    background-image: url('/static/images/background.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background image fixed when scrolling */
+}
+
+/* Additional styling to ensure content is readable over the background */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    padding: 20px;
+    border-radius: 10px;
+}
